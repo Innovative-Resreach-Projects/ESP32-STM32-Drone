@@ -1,0 +1,48 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3049c90a-2417-41e9-9ca3-8cb860508edc")
+	(paper "A4")
+	(lib_symbols)
+	(text "LDO for the sensors and data aqcuisiton \n"
+		(exclude_from_sim no)
+		(at 59.69 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e48e10a-1234-40ab-a5f7-6414be4787d7")
+	)
+	(text "switch to power on the drone and power off the drone while the battery is connected to the drone\n"
+		(exclude_from_sim no)
+		(at 79.756 149.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93ba3bbb-f3e4-4356-be5a-a42fd917ae69")
+	)
+	(text "buck converter used for the esp32 \n"
+		(exclude_from_sim no)
+		(at 55.88 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c01e9e21-6a80-459f-bf4c-98977469dd57")
+	)
+	(text "ESD protection circuitry and an overvoltage and overcurrent protection\n"
+		(exclude_from_sim no)
+		(at 67.056 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8c3cedf-a7d0-4097-a956-514b3d7d255f")
+	)
+)
