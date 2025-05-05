@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.15" pages="2">
+  <diagram name="System" id="WtGol9xJJCp609SvIeg4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edF78RgJ9-TfR2sDlDma-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-1" target="edF78RgJ9-TfR2sDlDma-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-1" target="edF78RgJ9-TfR2sDlDma-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-1" target="edF78RgJ9-TfR2sDlDma-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-1" value="ESP 32/ STM 32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-2" value="GPS Module, Off the shelf Drone ID module" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-4" value="Telemtry Module (using low cost LoRa Module, Bluetooth, Wifi)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-6" value="Note: The goal is to have a 1-5 km distance of commuication , with bluetooth or wifi it will become hard to transfer data&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="570" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-7" value="IMU, Barometer and Magnetometer, Pressure Sensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-9" target="edF78RgJ9-TfR2sDlDma-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-9" value="Computer for processing power&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-12" value="For the computer need to look into the Raspberry Pi Compute Module" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="570" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-13" target="edF78RgJ9-TfR2sDlDma-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-13" target="edF78RgJ9-TfR2sDlDma-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-13" value="Battery plug for a 2s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-14" target="edF78RgJ9-TfR2sDlDma-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="80" />
+              <mxPoint x="510" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-14" value="Converter for the Sensors and MCU most likely run off a 3v3 and no more than 1A (Hopefully)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="45" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-18" target="edF78RgJ9-TfR2sDlDma-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="edF78RgJ9-TfR2sDlDma-18" target="edF78RgJ9-TfR2sDlDma-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="440" />
+              <mxPoint x="280" y="440" />
+              <mxPoint x="280" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-18" value="ESC connection&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-20" value="Motors&amp;nbsp; (x4)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edF78RgJ9-TfR2sDlDma-24" value="sensors to consider BNO055, BMP605" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="645" width="165" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="w-1xJ6RiuilZZbs6Q68m-1" value="using an external oscillator, for the ESp32, LoRA and ESP32 connected using SPI communication" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="240" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SaMaYIJLaZZ0TE41CvvP" name="ESP32">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QYkISc-FFSIoF_rnq6ps-4" value="in" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="80" width="140" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

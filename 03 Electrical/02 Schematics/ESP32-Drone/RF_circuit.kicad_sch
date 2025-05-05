@@ -5,4 +5,14 @@
 	(uuid "3cf54875-e4af-4567-940d-40495e4d7bd1")
 	(paper "A4")
 	(lib_symbols)
+	(text "Determine the LoRA module that we will use \n"
+		(exclude_from_sim no)
+		(at 51.308 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caaf066b-571d-4631-8ba4-8eabed47d86d")
+	)
 )

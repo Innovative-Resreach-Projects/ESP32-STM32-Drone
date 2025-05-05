@@ -136,6 +136,16 @@
 				(justify left top)
 			)
 		)
+		(pin "MTMS" input
+			(at 228.6 105.41 0)
+			(uuid "6e96970d-4517-4504-8a16-ab32f098109f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ESP32-Drone"
 				(path "/2b6165e2-6038-49be-a1b7-174ab2023d42"
