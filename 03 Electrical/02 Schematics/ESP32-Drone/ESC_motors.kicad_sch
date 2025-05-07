@@ -5,4 +5,14 @@
 	(uuid "649e5bc9-7fc8-427e-80d2-f172b7fc715b")
 	(paper "A4")
 	(lib_symbols)
+	(text "motors will be determined later on, and esc too"
+		(exclude_from_sim no)
+		(at 100.33 67.945 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74e7fb21-d1ee-44f9-9d85-53ea65321f34")
+	)
 )
