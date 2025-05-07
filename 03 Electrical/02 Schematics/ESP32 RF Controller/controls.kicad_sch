@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "38e64ed6-469c-4cd0-bef7-58bc6719ef7e")
+	(paper "A4")
+	(lib_symbols)
+	(text "add the joystick buttons and switches for the controller"
+		(exclude_from_sim no)
+		(at 73.66 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "752ee060-69b7-4a4a-a4d5-bfeb55abef4d")
+	)
+)

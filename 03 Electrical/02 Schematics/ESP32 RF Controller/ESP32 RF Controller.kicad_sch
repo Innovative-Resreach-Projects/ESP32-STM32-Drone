@@ -1,0 +1,150 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bea6a8cb-0815-4aa0-a985-f1fca9e571e0")
+	(paper "A4")
+	(lib_symbols)
+	(text "add the display for the controller"
+		(exclude_from_sim no)
+		(at 149.2023 55.6569 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4d2d0ef-2dfd-4a60-a07e-8033b08672f4")
+	)
+	(sheet
+		(at 22.86 129.54)
+		(size 97.79 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "201e6436-cb74-4045-aa1e-37ed3e433609")
+		(property "Sheetname" "MCU"
+			(at 22.86 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 22.86 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32 RF Controller"
+				(path "/bea6a8cb-0815-4aa0-a985-f1fca9e571e0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.135 94.615)
+		(size 81.28 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a117883f-c4d1-4b75-ab68-e086bdc7d274")
+		(property "Sheetname" "Controls"
+			(at 191.135 93.9034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controls.kicad_sch"
+			(at 191.135 137.1096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32 RF Controller"
+				(path "/bea6a8cb-0815-4aa0-a985-f1fca9e571e0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 46.99)
+		(size 46.355 33.655)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e16f686a-cc64-4e27-86fc-012799c58766")
+		(property "Sheetname" "Comm System"
+			(at 30.48 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "comms.kicad_sch"
+			(at 30.48 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32 RF Controller"
+				(path "/bea6a8cb-0815-4aa0-a985-f1fca9e571e0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
