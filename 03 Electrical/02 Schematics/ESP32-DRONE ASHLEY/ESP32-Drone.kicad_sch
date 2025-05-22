@@ -1,0 +1,247 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2b6165e2-6038-49be-a1b7-174ab2023d42")
+	(paper "A3")
+	(lib_symbols)
+	(text "Add some LED indicators and a Connector on the top sheet to : 1. communicate and program the esp32, 2. power on the drone\n"
+		(exclude_from_sim no)
+		(at 159.385 254.635 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e3451c21-2672-415f-9673-964368853f4a")
+	)
+	(sheet
+		(at 267.97 31.75)
+		(size 80.01 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1dc35de0-9c0f-47b6-8fc2-6b9c6dde3360")
+		(property "Sheetname" "Comms System"
+			(at 267.97 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF_circuit.kicad_sch"
+			(at 267.97 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/2b6165e2-6038-49be-a1b7-174ab2023d42"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 30.48)
+		(size 57.15 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8207b3b3-ac5d-4554-805d-994ec0df0ada")
+		(property "Sheetname" "Power Management"
+			(at 27.94 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_circuit.kicad_sch"
+			(at 27.94 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/2b6165e2-6038-49be-a1b7-174ab2023d42"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 82.55)
+		(size 66.04 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f001f97-68aa-4b07-b5f8-cc50eed823cf")
+		(property "Sheetname" "ESP32"
+			(at 162.56 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 162.56 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MTMS" input
+			(at 228.6 105.41 0)
+			(uuid "6e96970d-4517-4504-8a16-ab32f098109f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/2b6165e2-6038-49be-a1b7-174ab2023d42"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 269.24 134.62)
+		(size 64.77 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e01dc768-0ee3-4879-b330-ecde0f6db60a")
+		(property "Sheetname" "Sensors"
+			(at 269.24 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors_circuit.kicad_sch"
+			(at 269.24 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/2b6165e2-6038-49be-a1b7-174ab2023d42"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 107.95)
+		(size 62.23 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f584af08-08ff-4e53-9305-71aefc35f2e7")
+		(property "Sheetname" "Actuators"
+			(at 27.94 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESC_motors.kicad_sch"
+			(at 27.94 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/2b6165e2-6038-49be-a1b7-174ab2023d42"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
