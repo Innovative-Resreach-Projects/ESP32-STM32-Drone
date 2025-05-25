@@ -2439,7 +2439,7 @@
 		)
 		(uuid "705ce8a2-3e3d-47d1-b020-6b42b948affa")
 	)
-	(text "Add through holes to connect the abttery holder so it is not placed directly onto the PCB or find a battery holder for a PCB \nwill need to be mounted in the back of the PCB\n"
+	(text "Add through holes to connect the battery holder so it is not placed directly onto the PCB or find a battery holder for a PCB \nwill need to be mounted in the back of the PCB\n"
 		(exclude_from_sim no)
 		(at 57.658 57.404 0)
 		(effects
@@ -3598,7 +3598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 254 92.71 0)
 			(effects
 				(font
@@ -3930,7 +3930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 246.38 96.52 0)
 			(effects
 				(font
