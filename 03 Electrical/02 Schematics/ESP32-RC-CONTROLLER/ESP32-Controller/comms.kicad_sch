@@ -1,0 +1,28 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "004e789f-b0bd-4ea9-abea-e638fbd10dd5")
+	(paper "A4")
+	(lib_symbols)
+	(text "RF connector for the external antenna\n"
+		(exclude_from_sim no)
+		(at 45.974 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55a3b5b2-2989-422a-9172-8088000142f2")
+	)
+	(text "LoRA module - keep same as the drone\n"
+		(exclude_from_sim no)
+		(at 48.006 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65b9b50d-fbac-4ef7-af6a-4604b2b82c0e")
+	)
+)

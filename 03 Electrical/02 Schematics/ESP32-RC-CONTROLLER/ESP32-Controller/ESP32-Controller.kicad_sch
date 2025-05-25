@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "72483840-4eac-4adb-9948-eab3eb110bd4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 49.53 55.88)
+		(size 39.37 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00f97385-cf9c-478f-a5a3-24a03299d8ac")
+		(property "Sheetname" "Power"
+			(at 49.53 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 49.53 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Controller"
+				(path "/72483840-4eac-4adb-9948-eab3eb110bd4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 55.88)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b3b8e05-ba6d-4cbb-9669-d7319321dc44")
+		(property "Sheetname" "Communication"
+			(at 124.46 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "comms.kicad_sch"
+			(at 124.46 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Controller"
+				(path "/72483840-4eac-4adb-9948-eab3eb110bd4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 106.68)
+		(size 62.23 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba82c86a-4297-4504-b2a0-2f6b76d479ae")
+		(property "Sheetname" "MCU"
+			(at 83.82 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro.kicad_sch"
+			(at 83.82 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Controller"
+				(path "/72483840-4eac-4adb-9948-eab3eb110bd4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 105.41)
+		(size 52.07 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d82658ec-c3b3-4eef-a32b-6fd2aa865744")
+		(property "Sheetname" "buttons&switches"
+			(at 214.63 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controls.kicad_sch"
+			(at 214.63 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Controller"
+				(path "/72483840-4eac-4adb-9948-eab3eb110bd4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
